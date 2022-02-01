@@ -59,7 +59,7 @@ for element in arkivstruktur_iter:
         print((element[0].text, skjerming_data, filsti))
     
 
-# Overwrite personal data
+# Overwrite personal data in arkivstruktur.xml
 
 arkivstruktur_iter = ET.parse(xml_file).iter()
 for element in arkivstruktur_iter:
